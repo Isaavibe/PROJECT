@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.home{
+    height: 80vh;
+}
+.about{
+    height: 69vh;
+}
+.services{
+    height: 80vh;
+}
+.contact{
+    height: 40vh;
+}
+header {
+    background-color: black;
+    position: sticky;
+    top: 2px;
+}
+nav{
+    padding: 1.5rem;
+    text-align: center;
+}
+nav h1{
+    color: rgb(10, 10, 211);
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav ul li a {
+    color: rgb(10, 10, 211);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 3rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    background-color: blue;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 0;
+}
+
+.container img{
+    margin-top: 1rem;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#home {
+    background-color: white;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#home h1 {
+    display: flex;
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    color: rgb(10, 10, 211);
+}
+#about{
+    background-color: black;
+}
+
+#about h2{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#about h3{
+    color: blue;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#about p{
+    color: blue;
+    font-size: 2rem;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.servicesgrid{
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns:repeat(3, 240px);
+    grid-template-rows:repeat(2, 200px);
+    margin-left: 20rem;
+}
+
+#contact{
+    background-color: white;
+}
+
+#contact ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+#contact ul li{
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+#contact ul li a{
+    text-decoration: none;
+    color: blue;
+}
+
+#contact ul li a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    color: blue;
+    text-align: center;
+    height: 70vh;
+    text-align: center;
+}
+footer ul{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+footer ul li a{
+    color: blue;
+    text-decoration: none;
+}

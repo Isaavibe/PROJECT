@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    <script>
+        /*Example 1
+        let name = prompt("what is your name")
+
+        //Function Definition
+        function greet(name){
+            alert("good morning " + name);
+        }
+        //funtion call
+        greet(name)
+
+        //Example 2
+        function fullname(firstname, lastname){
+            document.write("my fullname is " + firstname, lastname)
+        }
+        fullname("joyce", "Erica")
+        
+        //example 3
+        function multiply(x, y){
+            document.write("the multiplication of " +x + "x"+ y+ "="+ (x * y))
+        }
+        multiply(2, 3)
+
+        /*Example 4: Afunction that accepts a list of array names, change the name at index 2 to a different name*/
+
+        let list = ["Precious", "Joyce", "Treasure", "Francis", "steven", "lin"];
+
+        function name(list){
+            document.write(list);
+        }
+        name(list)
+
+        /*Return statement
+        //Example 5
+        //Function that returns a value
+
+        function askUser(){
+            let n =+ prompt("Enter a number to square")
+            return n
+        }
+        document.write(askUser)
+        function square(){
+            x = askUser();
+            return x*x;
+        }
+        document.write()*/   
+
+
+        /*Classwork: write a function that returns firstname and lastname, get the fullnames and display the names*/
+        function askFirstname(){
+            let firstname =+ prompt("Enter your first name")
+            return firstname
+        }
+        function askLastname(){
+            let lastname =+ prompt("Enter your lastname")
+            return lastname
+        }
+        function getFullnames(){
+            let firstname = askFirstname();
+            let lastname = askLastname();
+            return firstname+ " "+ lastname
+        }
+        function displayFullnames(){
+            let fullname = getFullnames();
+            return fullname
+        }
+        document.write(displayFullnames());
+    </script>
+</body>
+</html>
